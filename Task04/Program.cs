@@ -13,10 +13,12 @@ Console.Write("Введите третье число: ");
 int num3 = Convert.ToInt32(Console.ReadLine());
 
 int max = num1;
-if(max < num2){
+if (max < num2)
+{
     max = num2;
 }
-if(max < num3){
+if (max < num3)
+{
     max = num3;
 }
 Console.WriteLine($"Максимальное число: {max}");
